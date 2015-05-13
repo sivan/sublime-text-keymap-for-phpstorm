@@ -1,4 +1,4 @@
-<keymap version="1" name="Sublime Text" parent="Mac OS X">
+<keymap version="1" name="Sublime Text 3" parent="Mac OS X">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="meta Y" />
   </action>
@@ -62,6 +62,7 @@
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="DELETE" />
   </action>
+  <action id="EditSourceInNewWindow" />
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="DELETE" />
   </action>
@@ -124,6 +125,7 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift meta A" />
+    <keyboard-shortcut first-keystroke="shift meta SPACE" />
   </action>
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="shift ENTER" />
@@ -237,6 +239,10 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="meta alt DOWN" />
+    <keyboard-shortcut first-keystroke="F4" />
+  </action>
   <action id="NextProjectWindow" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt TAB" />
@@ -256,6 +262,10 @@
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt TAB" />
     <keyboard-shortcut first-keystroke="meta K" second-keystroke="meta LEFT" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="meta alt UP" />
+    <keyboard-shortcut first-keystroke="shift F4" />
   </action>
   <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
